@@ -12,8 +12,6 @@ int main(void)
 	int j;
 	int k;
 	int l;
-	int m = i + j;
-	int n = k + l;
 
 	for (i = 0; i < 10; i++)
 	{
@@ -23,14 +21,14 @@ int main(void)
 			{
 				for (l = 0; l < 10; l++)
 				{
-				if (m != n)
+				if (i + j != k + l)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(' ');
 					putchar(k + '0');
 					putchar(l + '0');
-						if (m + n != 35)
+						if (i + j + k + l != 35)
 						{
 						putchar(',');
 						putchar(' ');
