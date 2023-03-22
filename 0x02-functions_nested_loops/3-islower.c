@@ -2,7 +2,7 @@
 
 /**
  * _islower - Fumction
- * 0c: parameter to be printed
+ * @c: parameter to be printed
  * Return: 1 if true 0 if false
  */
 
